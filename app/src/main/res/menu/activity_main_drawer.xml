@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home " />
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Search " />
+        <item
+            android:id="@+id/booking"
+            android:icon="@drawable/ic_local_hotel_black_24dp"
+            android:title="Booking" />
+        <item
+            android:id="@+id/nearby"
+            android:icon="@drawable/ic_near_me_black_24dp"
+            android:title="Nearby" />
+    </group>
+
+
+    <item android:title="Halal Hotel based on state">
+        <menu>
+            <item
+                android:id="@+id/johor"
+                android:title="Johor" />
+            <item
+                android:id="@+id/kedah"
+                android:title="Kedah" />
+            <item
+                android:id="@+id/kelantan"
+                android:title="Kelantan" />
+            <item
+                android:id="@+id/labuan"
+                android:title="Labuan" />
+            <item
+                android:id="@+id/melaka"
+                android:title="Melaka" />
+            <item
+                android:id="@+id/negerisembilan"
+                android:title="Negeri Sembilan" />
+            <item
+                android:id="@+id/pahang"
+                android:title="Pahang" />
+            <item
+                android:id="@+id/penang"
+                android:title="Penang" />
+            <item
+                android:id="@+id/perak"
+                android:title="Perak" />
+            <item
+                android:id="@+id/perlis"
+                android:title="Perlis" />
+            <item
+                android:id="@+id/putrajaya"
+                android:title="Putrajaya" />
+            <item
+                android:id="@+id/selangor"
+                android:title="Selangor" />
+            <item
+                android:id="@+id/sabah"
+                android:title="Sabah" />
+            <item
+                android:id="@+id/sarawak"
+                android:title="Sarawak" />
+            <item
+                android:id="@+id/terengganu"
+                android:title="Terengganu" />
+        </menu>
+    </item>
+
+    <item android:title="Exit">
+        <menu>
+            <item
+                 android:id="@+id/logout"
+                 android:icon="@drawable/ic_forward_black_24dp"
+                 android:title="Log out" />
+        </menu>
+    </item>
+
+
+
+
+    </menu>
